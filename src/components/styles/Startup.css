@@ -31,15 +31,13 @@
 	font-family: 'inter', sans-serif;
 	font-weight: 500;
 	font-size: 1.1rem;
-
 	color: white;
 	background: #4D5B9E;
 	border: none;
-
 	margin: 10px;
 	transition: all 300ms;
+	cursor: pointer;
 }
 .startup--button:hover{
 	box-shadow: 1px 4px 25px rgba(0,0,0,0.3);
-	cursor: pointer;
 }

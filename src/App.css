@@ -1,12 +1,28 @@
 body{
 	/*background: black;*/
+	overflow-x: hidden;
 }
+
+.app-quiz{
+	display: grid;
+	place-items: center;
+}
+
 .blob-yellow{
 	position: absolute;
 	right:0;
+	transition: all 200ms;
 
+}
+.blob-yellow-quiz{
+	display: none;
 }
 .blob-blue{
 	position: absolute;
 	bottom: 0;
+	transition: all 200ms;
+}
+
+.blob-blue-quiz{
+	display: none;
 }
