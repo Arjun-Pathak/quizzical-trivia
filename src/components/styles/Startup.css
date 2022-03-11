@@ -1,0 +1,45 @@
+.startup{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 700px;
+}
+.startup--title{
+	font-family: 'Karla', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3rem;
+	color: #293264;
+	margin-bottom: 7px;
+}
+
+.startup--description{
+	font-family: 'inter', sans-serif;
+	font-weight: 400;
+	color: #293264;
+	text-align: center;
+	margin: 10px;
+}
+
+.startup--button{
+	padding: 15px 45px;
+	border-radius: 15px;
+	font-family: 'inter', sans-serif;
+	font-weight: 500;
+	font-size: 1.1rem;
+
+	color: white;
+	background: #4D5B9E;
+	border: none;
+
+	margin: 10px;
+	transition: all 300ms;
+}
+.startup--button:hover{
+	box-shadow: 1px 4px 25px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
