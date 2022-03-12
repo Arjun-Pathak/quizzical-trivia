@@ -12,7 +12,7 @@ A react based project made for users the test their knowledge.
 
 ## Demo
 
-[quizzical-trivia.gif](https://im4.ezgif.com/tmp/ezgif-4-eca7840599.gif)
+![quizzical-trivia.gif](https://im4.ezgif.com/tmp/ezgif-4-eca7840599.gif)
 
 
 [![Website](https://img.shields.io/badge/-Website-black)](https://quizzical-trivia-avp.netlify.com/)
