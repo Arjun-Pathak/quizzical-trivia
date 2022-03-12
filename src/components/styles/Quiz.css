@@ -23,3 +23,13 @@
 .quiz-submit:hover{
 	box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
 }
+
+.quiz-result-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.quiz-result{
+	font-family: 'inter', sans-serif;
+	color: #293264;
+}

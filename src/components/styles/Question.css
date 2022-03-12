@@ -36,3 +36,18 @@
 	background: #D6DBF5;
 	border-color: #D6DBF5;
 }
+.question-button-not_selected{
+	opacity: 0.5;
+}
+.question-button-wrong{
+	background: #F8BCBC;
+	color: #8f94af;
+	border-color: #F8BCBC;
+	opacity: 1;
+}
+
+.question-button-correct{
+	background: #94D7A2;
+	border-color: #94D7A2;
+	opacity: 1;
+}
