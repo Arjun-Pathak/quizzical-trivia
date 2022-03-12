@@ -1,5 +1,4 @@
 body{
-	/*background: black;*/
 	overflow-x: hidden;
 }
 
@@ -18,7 +17,7 @@ body{
 	display: none;
 }
 .blob-blue{
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	transition: all 200ms;
 }

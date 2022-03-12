@@ -33,3 +33,8 @@
 	font-family: 'inter', sans-serif;
 	color: #293264;
 }
+.quiz-loader-active{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}

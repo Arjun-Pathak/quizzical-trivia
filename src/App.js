@@ -1,5 +1,5 @@
 // importing necessary functions and packages
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 // importing files
 import './App.css'; // importing stylesheet
@@ -14,14 +14,14 @@ import Quiz from "./components/Quiz";
 export default function App() {
 
   // defining state here
-  const [quizPageToggle, setQuizPageToggle] = useState(true); // initializing this state for toggling between startup page and main quiz page
+  const [quizPageToggle, setQuizPageToggle] = useState(false); // initializing this state for toggling between startup page and main quiz page
 
   return (
     <main className={`app ${quizPageToggle?'app-quiz': ''}`}>
       <img src={BlobYellow} className={`blob-yellow ${quizPageToggle? 'blob-yellow-quiz': ''}`} alt={'BlobYellow'}/>
       {
         quizPageToggle ?
-        <Quiz/> :
+        <Quiz setQuizPageToggle={setQuizPageToggle}/> :
         <Startup toggleQuiz={()=>setQuizPageToggle(true)}/>
       }
 

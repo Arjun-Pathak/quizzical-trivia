@@ -15,11 +15,12 @@ export default function Question(props) {
 							${!props.hasAnswerShown && props.userAnswer===option ? 'question-button-selected': ''}
 							${props.hasAnswerShown && props.userAnswer === option && props.userAnswer === props.correctAnswer ? 'question-button-correct' : ''}
 							${props.hasAnswerShown && props.userAnswer === option && props.userAnswer!==props.correctAnswer ? 'question-button-wrong' : ''}
+							${props.hasAnswerShown && props.correctAnswer===option ? 'question-button-correct' : ''}
 							`}
 							key={nanoid()}
-							onClick={()=> props.changeAnswer(props.id, option)}
+							onClick={()=>props.changeAnswer(props.id,option)}
 						>
-							{option}
+							{option.replaceAll('&quot;', '"').replaceAll('&#039;', "'").replaceAll('&eacute;', 'é')}
 						</button>})}
 			</div>
 		</div>
