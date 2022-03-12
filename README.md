@@ -15,4 +15,4 @@ A react based project made for users the test their knowledge.
 ![quizzical-trivia.gif](https://im4.ezgif.com/tmp/ezgif-4-eca7840599.gif)
 
 
-[![Website](https://img.shields.io/badge/-Website-black)](https://quizzical-trivia-avp.netlify.com/)
+[![Website](https://img.shields.io/badge/-Website-critical)](https://quizzical-trivia-avp.netlify.com/)
